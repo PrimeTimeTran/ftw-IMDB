@@ -1,5 +1,3 @@
-const movieController = {};
-
 const {
   AppError,
   catchAsync,
@@ -8,10 +6,9 @@ const {
 
 const Movie = require("../models/Movie");
 
-movieController.create = catchAsync(async (req, res, next) => {
+const movieController = {};
 
-});
-
+movieController.create = catchAsync(async (req, res, next) => {});
 
 // GET http://localhost:5000/api/movies?sort_type=votes&order_by=asc
 // GET http://localhost:5000/api/movies?sort_type=votes&order_by=desc
