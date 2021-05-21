@@ -7,6 +7,7 @@ import { HomePage, AuthPage, FourOhFourPage } from "./pages";
 import { ProtectedRoute } from "./components";
 
 function App() {
+  console.log('Hiiii')
   return (
     <div className="App">
       <Switch>
